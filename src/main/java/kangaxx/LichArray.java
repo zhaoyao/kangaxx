@@ -86,6 +86,8 @@ public class LichArray extends Lich implements Iterable<Lich> {
 
     @Override
     public String toString() {
-        return Arrays.toString(data);
+        Lich[] fitToSize = new Lich[size()];
+        System.arraycopy(this.data, 0, fitToSize, 0, size());
+        return Arrays.toString(fitToSize);
     }
 }
