@@ -8,7 +8,7 @@ import java.util.List;
  * Date: 10/12/12
  * Time: 3:58 PM
  */
-public class LichDecoder implements TokenizerListener {
+public class LichDecoder implements LichTokenizerListener {
 
     private int currentDepth;
     private List<LichToken> topLevelTokens;

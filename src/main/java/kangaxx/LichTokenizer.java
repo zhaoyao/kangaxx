@@ -32,7 +32,7 @@ public class LichTokenizer {
 
 
 
-    public boolean tokenize(byte[] data, int offset, int length, TokenizerListener tl) throws LichTokenizeException {
+    public boolean tokenize(byte[] data, int offset, int length, LichTokenizerListener tl) throws LichTokenizeException {
 
         if (state == State.AWAITING_INITIAL_DATA) {
             state = State.EXPECTING_LEADING_SIZE_DIGIT;

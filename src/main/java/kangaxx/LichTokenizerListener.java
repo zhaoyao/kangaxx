@@ -5,7 +5,7 @@ package kangaxx;
  * Date: 10/12/12
  * Time: 4:12 PM
  */
-public interface TokenizerListener {
+public interface LichTokenizerListener {
 
     void startTokenize(LichTokenizer lt);
 
