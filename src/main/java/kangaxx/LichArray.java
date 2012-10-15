@@ -50,11 +50,6 @@ public class LichArray extends Lich implements Iterable<Lich> {
         return this;
     }
 
-    @Override
-    public LichDict asDict() {
-        throw new ClassCastException();
-    }
-
     public int size() {
         return this.size;
     }
