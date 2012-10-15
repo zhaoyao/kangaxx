@@ -36,10 +36,6 @@ public class LichArray extends Lich implements Iterable<Lich> {
         return data[i];
     }
 
-    public LichBinary getBinary(int i) {
-        return get(i).asBinary();
-    }
-
     @Override
     public boolean isArray() {
         return true;
